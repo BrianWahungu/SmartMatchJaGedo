@@ -1,0 +1,35 @@
+.navbar {
+  background-color: #ffffff; /* Light background */
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Logo styling */
+.nav-logo img {
+  height: 50px;
+  object-fit: contain;
+}
+
+/* Navigation list */
+.nav-list {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navigation items */
+.nav-item {
+  color: #333; /* Dark text for contrast */
+  cursor: pointer;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-item:hover {
+  color: #1abc9c; /* Accent hover color */
+}
