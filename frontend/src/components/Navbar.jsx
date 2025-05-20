@@ -1,18 +1,29 @@
 import React from 'react';
-import './Navbar.css';
-import logo from '../assets/logo.png'; // Adjust path based on your folder structure
+import { Link } from 'react-router-dom';
+import '../styles/Navbar.css';
+import logo from '../assets/logo.png'; // Make sure the path is correct
 
 const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="nav-logo">
-        <img src={logo} alt="Company Logo" />
+        <Link to="/">
+          <img src={logo} alt="Company Logo" />
+        </Link>
       </div>
       <ul className="nav-list">
-        <li className="nav-item">Home</li>
-        <li className="nav-item">About Us</li>
-        <li className="nav-item">Contact Us</li>
-        <li className="nav-item">SignUp/Login</li>
+        <li className="nav-item">
+          <Link to="/">Home</Link>
+        </li>
+        <li className="nav-item">
+          <Link to="/about">About Us</Link>
+        </li>
+        <li className="nav-item">
+          <Link to="/contact">Contact Us</Link>
+        </li>
+        <li className="nav-item">
+          <Link to="/login">SignUp/Login</Link>
+        </li>
       </ul>
     </nav>
   );
