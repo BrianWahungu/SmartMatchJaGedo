@@ -33,3 +33,15 @@
 .nav-item:hover {
   color: #1abc9c; /* Accent hover color */
 }
+.logout-btn {
+  background: transparent;
+  border: none;
+  color: #007bff;
+  cursor: pointer;
+  font-size: 1rem;
+  padding: 0;
+}
+
+.logout-btn:hover {
+  text-decoration: underline;
+}

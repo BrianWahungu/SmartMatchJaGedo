@@ -1,0 +1,56 @@
+.chat-inbox {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
+}
+
+.chat-inbox h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1.2rem;
+  color: #333;
+}
+
+.message-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.message {
+  border: 1px solid #eee;
+  padding: 1rem;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  transition: background-color 0.2s ease;
+}
+
+.message.user {
+  background-color: #e9f7ef;
+  border-left: 4px solid #28a745;
+}
+
+.message.builder {
+  background-color: #f0f4ff;
+  border-left: 4px solid #007bff;
+}
+
+.message strong {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 0.3rem;
+  color: #222;
+}
+
+.message p {
+  font-size: 0.95rem;
+  margin: 0.2rem 0 0.5rem;
+  color: #444;
+}
+
+.message span {
+  font-size: 0.8rem;
+  color: #777;
+}
