@@ -51,12 +51,6 @@ BuilderMatch empowers clients to:
 
 ---
 
-## 📸 Screenshots
-
-> Add screenshots here in a future update (Home page, Matching form, Dashboard, etc.)
-
----
-
 ## 🛠️ Installation
 
 1. **Clone the repo**
